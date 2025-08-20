@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NAV SHARMA — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+  <div class="container">
+    <!-- Header / Hero -->
+    <header id="home">
+      <!-- Put your image here -->
+      <img class="avatar" src="WhatsApp Image 2025-08-20 at 11.35.52_4230c3ce.jpg" alt="Your Name" />
+      <div class="hero">
+        <h1>NAV SHARMA</h1>
+        <p class="subtitle">WEB DEVELOPER • UI/UX DESIGNER</p>
+
+        <!-- Centered contact + social -->
+        <div class="contact">
+          <a href="mailto:you@example.com"><i class="fa-solid fa-envelope"></i> navsharma@gmail.com</a>
+          <a href="tel:+91XXXXXXXXXX"><i class="fa-solid fa-phone"></i> +91-8791201989</a>
+          <a href="http://www.linkedin.com/in/nav-sharma" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/navsharma15" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#contact" class="btn"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+        </div>
+
+        <!-- simple nav -->
+        <nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <div class="grid">
+        <div class="col-8">
+          <p class="p">
+            I’m a budding software developer focused on clean UI and solid fundamentals.
+            I like building fast, responsive websites and learning new tools.
+            Currently exploring UI/UX and interview-focused DSA.
+          </p>
+          <div class="chips" aria-label="tech-stack">
+            <span class="chip"><i class="fa-brands fa-html5"></i> HTML</span>
+            <span class="chip"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span class="chip"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="chip"><i class="fa-brands fa-react"></i> React</span>
+            <span class="chip"><i class="fa-solid fa-database"></i> SQL</span>
+            <span class="chip"><i class="fa-brands fa-figma"></i> Figma</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <h3><i class="fa-solid fa-location-dot"></i> Based in</h3>
+            <p>India (IST)</p>
+            <h3 style="margin-top:10px;"><i class="fa-solid fa-briefcase"></i> Open to</h3>
+            <p>Internships • Freelance • Full-time</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills + Table -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="col-6">
+          <div class="card">
+            <h3>Core</h3>
+            <p class="muted">HTML, CSS, JavaScript, Bootstrap, Tailwind, Git</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <h3>Learning Next</h3>
+            <p class="muted">React, API Integration, DSA (Arrays, Strings, Hashmaps, Linked Lists)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Requested skills table -->
+      <h3 style="margin-top:16px">Skill Level Overview</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML</td><td>Moderate</td><td>Semantic, SEO basics</td></tr>
+          <tr><td>CSS</td><td>Moderate</td><td>Responsive, Flex/Grid</td></tr>
+          <tr><td>JavaScript</td><td>Normal</td><td>ES6+, DOM, Fetch</td></tr>
+          <tr><td>React</td><td>Normal</td><td>Hooks, Components</td></tr>
+          <tr><td>Git/GitHub</td><td>Moderate</td><td>Branching, PRs</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="timetable" class="box timetable" style="margin-top:30px;">
+    <h2>Academic Time Table</h2>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>9:00 - 10:00</th>
+        <th>10:00 - 11:00</th>
+        <th>11:00 - 12:00</th>
+        <th>12:00 - 1:00</th>
+        <th>2:00 - 3:00</th>
+        <th>3:00 - 4:00</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Math</td>
+        <td>Physics</td>
+        <td>Break</td>
+        <td>Programming</td>
+        <td>Web Dev</td>
+        <td>Lab</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>English</td>
+        <td>Math</td>
+        <td>Break</td>
+        <td>DSA</td>
+        <td>Web Dev</td>
+        <td>Sports</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Physics</td>
+        <td>English</td>
+        <td>Break</td>
+        <td>DSA</td>
+        <td>Programming</td>
+        <td>Lab</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Math</td>
+        <td>DSA</td>
+        <td>Break</td>
+        <td>Programming</td>
+        <td>Web Dev</td>
+        <td>Sports</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Break</td>
+        <td>Programming</td>
+        <td>Lab</td>
+        <td>Web Dev</td>
+      </tr>
+    </table>
+  </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="col-6">
+          <div class="card">
+            <h3>Shorter — Book/Video Summarizer</h3>
+            <p>A web tool that summarizes PDFs and videos with template styles, TTS, and downloadable output.</p>
+            <p class="muted">HTML • CSS • JS • API</p>
+            <p><a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live</a> ·
+               <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <h3>Loop — Mood-Based Music Site</h3>
+            <p>Shows Bollywood/Hollywood playlists by emoji mood; custom player page with controls.</p>
+            <p class="muted">HTML • CSS • JS</p>
+            <p><a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live</a> ·
+               <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <h3>Smart AI Event Planner</h3>
+            <p>Suggests event ideas, budgets, and timelines with a sleek dashboard UI.</p>
+            <p class="muted">HTML • CSS • JS</p>
+            <p><a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live</a> ·
+               <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <h3>Pet Emotion Detector</h3>
+            <p>Analyzes pet images/videos to predict mood, with animated mood cards & history charts.</p>
+            <p class="muted">HTML • CSS • JS</p>
+            <p><a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live</a> ·
+               <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>Bachelor of Technology — Computer Science</h3>
+        <p class="muted">GLA UNIVERSITY • 2023–2027</p>
+        <p>Relevant Coursework: Data Structures & Algorithms, DBMS, OS, CN, AI/ML (intro).</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="muted">Want to build something together? Send a quick message.</p>
+      <form class="grid" onsubmit="event.preventDefault(); alert('Thanks! I will reply soon.');">
+        <div class="col-6">
+          <label>Name</label>
+          <input required type="text" name="name" placeholder="Your name" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1430;color:var(--text)">
+        </div>
+        <div class="col-6">
+          <label>Email</label>
+          <input required type="email" name="email" placeholder="you@example.com" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1430;color:var(--text)">
+        </div>
+        <div class="col-6">
+          <label>Phone (optional)</label>
+          <input type="tel" name="phone" placeholder="+91 8791201989" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1430;color:var(--text)">
+        </div>
+        <div class="col-6">
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Project / Opportunity" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1430;color:var(--text)">
+        </div>
+        <div class="col-6" style="grid-column:span 12">
+          <label>Message</label>
+          <textarea required name="message" rows="5" placeholder="Tell me about your idea…" style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:#0f1430;color:var(--text)"></textarea>
+        </div>
+        <div class="col-6" style="grid-column:span 12">
+          <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
+        </div>
+      </form>
+    </section>
+    <!-- Social Media Contact Section -->
+<section class="contact" id="social">
+  <div class="contactus">
+    <a href="https://www.instagram.com/sh_nav_/" target="_blank"><i class="fa-brands fa-square-instagram" id="instagram"></i></a>
+    <a href="http://www.linkedin.com/in/nav-sharma" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+    <a href="https://github.com/navsharma15" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+    <a href="https://t.me/yourusername" target="_blank"><i class="fa-brands fa-telegram" id="telegram"></i></a>
+    <a href="#"><i class="fa-solid fa-user" id="user"></i></a>
+  </div>      
+</section>
+
+    <footer>
+      © <span id="y"></span> Your Name • Built with ❤️ using HTML & CSS
+    </footer>
+  </div>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
